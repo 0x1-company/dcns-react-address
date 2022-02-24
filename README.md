@@ -11,11 +11,11 @@ The Address component is a drop-in React component for your dapps. Anytime you n
 React ENS Address Component can be installed via npm:
 
 ```bash
-$ yarn add @ensdomains/react-ens-address
+$ yarn add @bchdomains/react-ens-address
 ```
 
 ```bash
-$ npm install --save @ensdomains/react-ens-address
+$ npm install --save @bchdomains/react-ens-address
 ```
 
 #### Parameters:
@@ -50,7 +50,7 @@ All styling made in `style.css`. It can be take as a start point.
 ### Basic Example 1
 
 ```jsx
-import ENSAddress from '@ensdomains/react-ens-address'
+import ENSAddress from '@bchdomains/react-ens-address'
 
 function Component() {
   return <ENSAddress provider={window.web3 || window.ethereum} />
@@ -61,7 +61,7 @@ function Component() {
 
 ```jsx
 import React, { useState } from 'react'
-import ENSAddress from '@ensdomains/react-ens-address'
+import ENSAddress from '@bchdomains/react-ens-address'
 
 function AddressInput() {
   const [resolved, setResolved] = useState({})
