@@ -1,7 +1,7 @@
 {
-  "name": "@bchdomains/react-ens-address",
+  "name": "@bchdomains/react-lns-address",
   "version": "0.0.29",
-  "description": "React ENS address component",
+  "description": "React LNS address component",
   "main": "dist/index.js",
   "files": [
     "src",
@@ -56,18 +56,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bchdomains/react-ens-address.git"
+    "url": "git+https://github.com/bchdomains/react-lns-address.git"
   },
   "keywords": [
     "react",
+    "lns",
     "ens",
+    "smartbch",
+    "bch",
     "ethereum",
     "name",
     "names",
-    "react-ens"
+    "react-lns"
   ],
   "bugs": {
-    "url": "https://github.com/bchdomains/react-ens-address/issues"
+    "url": "https://github.com/bchdomains/react-lns-address/issues"
   },
-  "homepage": "https://github.com/bchdomains/react-ens-address#readme"
+  "homepage": "https://github.com/bchdomains/react-lns-address#readme"
 }
