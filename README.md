@@ -1,6 +1,6 @@
-# React ENS Address Component
+# React LNS Address Component
 
-The Address component is a drop-in React component for your dapps. Anytime you need to take an address as an input, you can use the React ENS Address Component instead to resolve ENS names or provide feedback with reverse records.
+The Address component is a drop-in React component for your dapps. Anytime you need to take an address as an input, you can use the React LNS Address Component instead to resolve LNS names or provide feedback with reverse records.
 
 ![Default component vie](./src/doc/basic.png)
 
@@ -8,28 +8,28 @@ The Address component is a drop-in React component for your dapps. Anytime you n
 
 ### Installation
 
-React ENS Address Component can be installed via npm:
+React LNS Address Component can be installed via npm:
 
 ```bash
-$ yarn add @bchdomains/react-ens-address
+$ yarn add @bchdomains/react-lns-address
 ```
 
 ```bash
-$ npm install --save @bchdomains/react-ens-address
+$ npm install --save @bchdomains/react-lns-address
 ```
 
 #### Parameters:
 
 - presetValue - sets a default value for the input
 - provider - Web3 provider **(required)**
-- placeholder - set custom placeholder. Default: 'Enter Ethereum name or address'
+- placeholder - set custom placeholder. Default: 'Enter smartBCH name or address'
 - showBlockies - show digital image based on address (similar to github). Default: true
 - DefaultIcon: Component - Icon to show on the left when nothing has been typed. Default: null
 - onResolve - callback. Invokes when address or name resolved and also when there is an error. The callback is called with a `resolutionObject`. This has 4 properties:
 
 ```
 {
-  name: 'vitalik.eth',
+  name: 'pat.bch',
   address: '0x123...',
   type: "address" // "address" or "name" is the inputValue type
   input: "0x123..." // if the resolve is called and returns an error, it will return with the other properties as null and only input will be defined
@@ -50,7 +50,7 @@ All styling made in `style.css`. It can be take as a start point.
 ### Basic Example 1
 
 ```jsx
-import ENSAddress from '@bchdomains/react-ens-address'
+import ENSAddress from '@bchdomains/react-lns-address'
 
 function Component() {
   return <ENSAddress provider={window.web3 || window.ethereum} />
@@ -61,7 +61,7 @@ function Component() {
 
 ```jsx
 import React, { useState } from 'react'
-import ENSAddress from '@bchdomains/react-ens-address'
+import ENSAddress from '@bchdomains/react-lns-address'
 
 function AddressInput() {
   const [resolved, setResolved] = useState({})
