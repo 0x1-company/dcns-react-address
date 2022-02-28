@@ -1,6 +1,6 @@
 {
   "name": "@bchdomains/react-lns-address",
-  "version": "0.0.29",
+  "version": "0.0.31",
   "description": "React LNS address component",
   "main": "dist/index.js",
   "files": [
