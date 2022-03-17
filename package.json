@@ -1,6 +1,6 @@
 {
   "name": "@bchdomains/react-lns-address",
-  "version": "0.0.32",
+  "version": "0.0.33",
   "description": "React LNS address component",
   "main": "dist/index.js",
   "files": [
@@ -48,7 +48,7 @@
     "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "@bchdomains/ui": "^3.3.16",
+    "@bchdomains/ui": "^3.3.18",
     "@emotion/core": "^10.0.14",
     "@emotion/styled": "^10.0.14",
     "ethers": "^4.0.32",
