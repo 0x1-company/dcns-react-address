@@ -19,7 +19,7 @@ import warningImage from './assets/warning.svg'
 
 import './style.css'
 
-const ENS_NOT_FOUND = 'ENS name not found'
+const ENS_NOT_FOUND = 'LNS name not found'
 
 function Address(props) {
   const [resolvedAddress, setResolvedAddress] = useState(null)
@@ -227,7 +227,7 @@ Address.propTypes = {
 
 Address.defaultProps = {
   presetValue: '',
-  placeholder: 'Enter Ethereum name or address',
+  placeholder: 'Enter LNS name or address',
   showBlockies: true,
   DefaultIcon: null,
   className: '',
