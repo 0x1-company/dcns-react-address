@@ -1,7 +1,7 @@
 {
-  "name": "@bchdomains/react-lns-address",
-  "version": "0.0.34",
-  "description": "React LNS address component",
+  "name": "@dcnsdomains/react-dcns-address",
+  "version": "1.0.0",
+  "description": "React DcNS address component",
   "main": "dist/index.js",
   "files": [
     "src",
@@ -48,7 +48,7 @@
     "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "@bchdomains/ui": "^3.3.18",
+    "@dcnsdomains/ui": "^4.0.0",
     "@emotion/core": "^10.0.14",
     "@emotion/styled": "^10.0.14",
     "ethers": "^4.0.32",
@@ -56,21 +56,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bchdomains/react-lns-address.git"
+    "url": "git+https://github.com/0x1-company/dcns-react-address.git"
   },
   "keywords": [
     "react",
-    "lns",
     "ens",
-    "smartbch",
-    "bch",
     "ethereum",
     "name",
     "names",
-    "react-lns"
+    "dcns",
+    "doge",
+    "dogechain"
   ],
   "bugs": {
-    "url": "https://github.com/bchdomains/react-lns-address/issues"
+    "url": "https://github.com/0x1-company/dcns-react-address/issues"
   },
-  "homepage": "https://github.com/bchdomains/react-lns-address#readme"
+  "homepage": "https://github.com/0x1-company/dcns-react-address#readme"
 }

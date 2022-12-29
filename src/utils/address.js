@@ -1,4 +1,4 @@
-import { validateName } from '@bchdomains/ui'
+import { validateName } from '@dcnsdomains/ui'
 import { utils } from 'ethers'
 
 export const ETH_ADDRESS_TYPE = {

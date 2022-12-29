@@ -1,4 +1,4 @@
-import { setupENS } from '@bchdomains/ui'
+import { setupENS } from '@dcnsdomains/ui'
 
 let ens = {}
 
