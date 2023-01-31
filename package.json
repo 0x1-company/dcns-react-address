@@ -1,7 +1,7 @@
 {
-  "name": "@bchdomains/react-lns-address",
+  "name": "@dcnsdomains/react-dcns-address",
   "version": "0.0.34",
-  "description": "React LNS address component",
+  "description": "React DcNS address component",
   "main": "dist/index.js",
   "files": [
     "src",

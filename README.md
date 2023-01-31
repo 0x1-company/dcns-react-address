@@ -1,6 +1,6 @@
-# React LNS Address Component
+# React DcNS Address Component
 
-The Address component is a drop-in React component for your dapps. Anytime you need to take an address as an input, you can use the React LNS Address Component instead to resolve LNS names or provide feedback with reverse records.
+The Address component is a drop-in React component for your dapps. Anytime you need to take an address as an input, you can use the React DcNS Address Component instead to resolve DcNS names or provide feedback with reverse records.
 
 ![Default component vie](./src/doc/basic.png)
 
@@ -8,14 +8,14 @@ The Address component is a drop-in React component for your dapps. Anytime you n
 
 ### Installation
 
-React LNS Address Component can be installed via npm:
+React DcNS Address Component can be installed via npm:
 
 ```bash
-$ yarn add @bchdomains/react-lns-address
+$ yarn add @dcnsdomains/react-dcns-address
 ```
 
 ```bash
-$ npm install --save @bchdomains/react-lns-address
+$ npm install --save @dcnsdomains/react-dcns-address
 ```
 
 #### Parameters:
@@ -50,7 +50,7 @@ All styling made in `style.css`. It can be take as a start point.
 ### Basic Example 1
 
 ```jsx
-import ENSAddress from '@bchdomains/react-lns-address'
+import ENSAddress from '@dcnsdomains/react-dcns-address'
 
 function Component() {
   return <ENSAddress provider={window.web3 || window.ethereum} />
@@ -61,7 +61,7 @@ function Component() {
 
 ```jsx
 import React, { useState } from 'react'
-import ENSAddress from '@bchdomains/react-lns-address'
+import ENSAddress from '@dcnsdomains/react-dcns-address'
 
 function AddressInput() {
   const [resolved, setResolved] = useState({})
