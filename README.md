@@ -29,7 +29,7 @@ $ npm install --save @dcnsdomains/react-dcns-address
 
 ```
 {
-  name: 'pat.bch',
+  name: 'pat.dc',
   address: '0x123...',
   type: "address" // "address" or "name" is the inputValue type
   input: "0x123..." // if the resolve is called and returns an error, it will return with the other properties as null and only input will be defined
